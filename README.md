@@ -10,9 +10,9 @@
 ├── page                            # 页面文件
 ├── static                          # 静态资源
 ├── utils                           # 工具包
-│   │── config.js                   # 状态栏占位组件
-│   │── request.js                  # 状态栏占位组件
-│   └── whiteList.js                # 自定义tabbar(还没使用，使用时需要在页面钩子内关闭原生tabber)
+│   │── config.js                   # 请求ip配置
+│   │── request.js                  # 请求封装
+│   └── whiteList.js                # 请求白名单(可结合request，配置后不添加请求头)
 └── package.json                    # package.json
 ```
 
