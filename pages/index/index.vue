@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import {selectMenuByKeyword} from "../../api/mapping";
+import {selectMenuByKeyword} from "../../api/intelligentQA";
 
 export default {
 	data() {
